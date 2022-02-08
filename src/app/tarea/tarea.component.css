@@ -1,0 +1,53 @@
+ul{
+    list-style: none;
+}
+
+.completa{
+    padding-top: 10px;
+    padding-bottom: 0%;
+    background-color: #008000ad;
+    border-color: gray;
+    border-radius: 4px;
+    height: 80px;
+    width: 800px;
+    color: white;
+    text-align: center;
+    transition: box-shadow .3s;
+}
+
+.completa>p{
+    text-decoration: line-through;
+}
+
+.completa:hover{
+    box-shadow: 0 0 10px #181818;
+    transition-duration: .3s;
+}
+
+div{
+    padding-top: 10px;
+    padding-bottom: 0%;
+    background-color: #ff0000a2;
+    text-align: center;
+    border-color: gray;
+    border-radius: 4px;
+    height: 80px;
+    width: 800px;
+    color: white;
+    transition: box-shadow .3s;
+}
+
+div:hover{
+    box-shadow: 0 0 10px #212121;
+}
+
+#marcar{
+    border-style: none;
+    border: hidden;
+    border-radius: 20px;
+    background-color: white;
+}
+
+button {
+    border-style: none;
+}

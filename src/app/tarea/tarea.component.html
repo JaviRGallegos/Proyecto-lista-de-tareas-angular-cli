@@ -1,0 +1,6 @@
+<ul *ngFor="let tarea of datos.listatareas; let i=index">
+    <div [ngClass]="{completa: tarea.estado}">
+        <p> {{ tarea.nombre }} &nbsp;&nbsp;{{ tarea.nombre }} &nbsp;&nbsp;&nbsp; Completada: {{ tarea.estado }} &nbsp;&nbsp;&nbsp; Prioridad: {{ tarea.prioridadname }} &nbsp;&nbsp;&nbsp; Fecha: {{ tarea.fecha }}</p>
+        &nbsp; &nbsp;<button id="marcar" (click)="cambiarEstado(i)">&check;</button> &nbsp;&nbsp;<button (click)="borrar(i)">Borrar</button> &nbsp;&nbsp; <button (click)="incprioridad(i)">Subir prioridad</button> &nbsp; &nbsp; <button (click)="decprioridad(i)">Bajar prioridad</button>
+    </div>
+</ul>

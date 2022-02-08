@@ -1,0 +1,22 @@
+/* You can add global styles to this file, and also import other style files */
+*{
+    font-family: "Helvetica HelveticaNeueLTS Td", Helvetica;
+}
+
+body{
+    background-image: 'New-york.jpg';
+    background-attachment: fixed;
+}
+
+#app{
+    padding-top: 40px;
+    padding-right: 40px;
+    width: 980px;
+    align-self: center;
+    background-color: white;
+    padding-bottom: 40px;
+}
+
+center{
+    margin-top: 80px;
+}
